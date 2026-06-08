@@ -1,0 +1,35 @@
+name: cook_it_up
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  avatar_glow: ^3.0.1
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  speech_to_text: ^6.6.1
+  http: ^1.2.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "pics/logo.png"
+  min_sdk_android: 34 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - pics/
+    - models/traced_model.pt

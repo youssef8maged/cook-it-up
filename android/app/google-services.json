@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725967062711",
+    "project_id": "cook-it-up-817a2",
+    "storage_bucket": "cook-it-up-817a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725967062711:android:c19410f971296a71c62f32",
+        "android_client_info": {
+          "package_name": "com.example.cook_it_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj-AiYGdis9uhExpCRAegPkTphGAbHzmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
